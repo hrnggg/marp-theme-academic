@@ -92,7 +92,30 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
+/* img {
+  border-radius: 8px;
+} */
 
 code {
   font-family: 'Source Code Pro', monospace;
+}
+
+.split-v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-v>* {
+  margin-right: 1rem;
+}
+
+.split-v>*:last-child {
+  margin-right: 0;
+}
+
+.split-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
